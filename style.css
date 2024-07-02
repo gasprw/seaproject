@@ -1,0 +1,336 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.head-icon {
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100cqmax;
+    background-attachment: fixed;
+}
+
+.ct-navbar{
+    margin: 0;
+    padding: 10px;
+    background-color: #212d55;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.li-navbar{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+    align-content: center;
+    float: inline-start;
+    display: block;
+}
+
+.a-navbar{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.a-navbar:hover{
+    color: #439ca2;
+}
+
+.ct-content{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 150px 100px 100px 100px;
+    background-color: #989887cb;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.ct-title{
+    padding: 20px;
+    margin-top: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-logo{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+}
+
+.text-tagline{
+    font-size: 60pt;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.ct-about{
+    margin-top: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-title{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    color: white;
+}
+
+.detail-about{
+    margin-top: 20px;
+    height: 300px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct-img-about{
+    height: 300px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-about{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.ct-text-about{
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.57);
+}
+
+.text-about{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.ct-services{
+    margin-top: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-list-menu{
+    margin-top: 20px;
+    height: 200px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.list-menu{
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12pt;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.srv-link{
+    justify-content: center;
+    align-items: center;
+}
+
+.img-list{
+    color: #212d55;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img-list:hover{
+    color: #439ca2;
+}
+
+.img-service{
+    height: 120px;
+    width: 120px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.ct-team{
+    margin-top: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-team-list{
+    margin-top: 20px;
+    height: 200px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.team-list{
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-team{
+    height: 120px;
+    width: 120px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.ct-reviews{
+    margin-top: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-review-list{
+    margin-top: 20px;
+    height: 300px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.review-list{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 220, 0.322);
+    border-color: #212d55;
+    border-style: double;
+}
+
+.text-review{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.ct-book{
+    margin-top: 60px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bt-book{
+    background-color: #212d55;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.bt-book:hover{
+    background-color: #439ca2;
+    transition: ease-in-out;
+}
+
+.ct-footer{
+    margin: 0;
+    padding: 10px;
+    background-color: #212d55;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5pt;
+    font-style: normal;
+    text-transform: uppercase;
+}

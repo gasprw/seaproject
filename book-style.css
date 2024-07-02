@@ -1,0 +1,123 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.head-icon {
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100cqmax;
+    background-attachment: fixed;
+}
+
+.ct-navbar{
+    margin: 0;
+    padding: 10px;
+    background-color: #212d55;
+}
+
+
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.li-navbar{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+    align-content: center;
+}
+
+.a-navbar{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.a-navbar:hover{
+    color: #439ca2;
+}
+
+.ct-content{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 70px 200px 200px 200px;
+    background-color: #989887cb;
+    align-items: center;
+    justify-content: center;
+}
+
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 40%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 12pt;
+  }
+  
+  input, select, textarea {
+    border-radius: 20px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 40%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+.form-book{
+  
+}
+
+  .ct-book-ap{
+    margin-top: 40px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+  button {
+    background-color: #212d55;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #439ca2;
+  }

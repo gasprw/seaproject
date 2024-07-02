@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SEA Salon - Booking</title>
+    <link rel="stylesheet" href="book-style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="file:///D:/SEA%20Salon%20Project/logosquare.png" type="image/x-icon"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="ct-navbar">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="index.html" class="a-navbar">HOME</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#about" class="a-navbar">ABOUT US</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#services" class="a-navbar">OUR SERVICES</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#team" class="a-navbar">OUR TEAM</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#reviews" class="a-navbar">REVIEWS</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Navigation Bar ends -->
+
+    <!-- isi konten -->
+    <div class="ct-content">
+        <form class="form-book" reservation.php" method="post">
+          <div>
+              <div class="elem-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="visitor_name" pattern=[A-Z\sa-z]{3,20} required>
+              </div>
+              <div class="elem-group">
+                <label for="email">Your E-mail</label>
+                <input type="email" id="email" name="visitor_email" required>
+              </div>
+              <div class="elem-group">
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" name="visitor_phone" required>
+              </div>
+            </div>
+            <div class="elem-group inlined">
+              <label for="adult">Choose Services</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Haircut and Styling
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                  Manicure Pedicure
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                  Facial Treatments
+                </label>
+              </div>
+            </div>
+            <div class="elem-group">
+              <label for="booking-date">Booking Date</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="ct-book-ap">
+              <button type="submit">Book Appointment</button>
+            </div>
+        </form>
+    </div>
